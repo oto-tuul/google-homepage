@@ -1,10 +1,13 @@
 body {
     background-color:white;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .google-logo {
-    margin-top: 190px;
+    display: block;
+    margin: auto;
+    margin-top: 170px;
     padding-bottom: 23px;
 }
 
@@ -34,4 +37,75 @@ body {
     border: solid 1px rgba(187, 185, 185, 0.747);
     border-radius: 3px;
     color: black;
+}
+
+.top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:right;
+    overflow: auto;
+}
+
+.top li {
+    float: left;
+}
+
+
+.top a {
+    display: inline-block;
+    padding: 4px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font: arial;
+    margin-top: 14px;
+}
+
+.top button {
+    margin-top: -5px;
+    background-color: rgb(46, 124, 226);
+    color: white;
+    border-radius: 2px;
+    font-weight: 500;
+    padding: 6px 10px 6px 10px;
+    border: none;
+}
+
+.sign-in {
+    margin-left: 0px;
+
+}
+
+.bottom {
+    background-color: rgb(238, 238, 238);
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -10px;
+    border-top: solid 1px rgb(221, 221, 221);
+}
+
+.bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.bottom a {
+    float:left;
+    display: block;
+    color: rgb(100, 99, 99);
+    text-align: center;
+    padding: 10px 10px 10px 0px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.bottom-right {
+    float: right;
+    padding-right: 10px;
 }
