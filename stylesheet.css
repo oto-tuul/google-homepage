@@ -4,18 +4,79 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.top {
+   position: fixed;
+   top: 0;
+   right: 0;
+   margin: 20px 30px 0 0; 
+}
+
+.top img {
+    height: 16px;
+    width: 16px;
+    opacity: 0.55;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    
+}
+
+.top li {
+   float:left;
+}
+.top a {
+    
+    padding: 6px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.top button {
+    margin-top: -5px;
+    background-color: rgb(46, 124, 226);
+    color: white;
+    border-radius: 2px;
+    font-weight: 500;
+    padding: 8px 12px 8px 12px;
+    margin-left: 15px;
+    border: none;
+}
+
 .google-logo {
     display: block;
     margin: auto;
-    margin-top: 170px;
+    margin-top: 200px;
     padding-bottom: 23px;
+}
+
+#search {
+    height: 15px;
+    width: 15px;
+    opacity: 0.55;
+    position: relative;
+    left: 33px;
+    top: 2px;
+}
+
+input {
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 370;
 }
 
 .rounded {
     border: thin solid rgb(226, 222, 222);
     border-width: 1px;
-    border-radius: 20px;
-    width: 480px;
+    border-radius: 25px;
+    width: 540px;
     height: 43px;
 }
 .button {
@@ -39,60 +100,28 @@ body {
     color: black;
 }
 
-.top ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float:right;
-    overflow: auto;
-}
 
-.top li {
-    float: left;
-}
-
-
-.top a {
-    display: inline-block;
-    padding: 4px;
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    font-size: 12px;
-    font: arial;
-    margin-top: 14px;
-}
-
-.top button {
-    margin-top: -5px;
-    background-color: rgb(46, 124, 226);
-    color: white;
-    border-radius: 2px;
-    font-weight: 500;
-    padding: 6px 10px 6px 10px;
-    border: none;
-}
-
-.sign-in {
-    margin-left: 0px;
-
-}
 
 .bottom {
     background-color: rgb(238, 238, 238);
     overflow: auto;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
-    margin-left: -10px;
     border-top: solid 1px rgb(221, 221, 221);
 }
 
 .bottom ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     display: inline;
+    
+}
+
+#ad {
+    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .bottom a {
@@ -100,7 +129,7 @@ body {
     display: block;
     color: rgb(100, 99, 99);
     text-align: center;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 20px;
     text-decoration: none;
     font-size: 14px;
 }
